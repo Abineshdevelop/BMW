@@ -28,7 +28,6 @@ ul {
     height: 60px;
     margin: 15px 30px;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,10 +44,26 @@ nav {
     flex-wrap: wrap;
     background: linear-gradient(to top, #000428, #004e92);
 }
+.supimg{
+    border-radius: 50%;
+    position: fixed;
+    height: 120px;
+    width: auto;
+    top: 80%;
+    left: 90%;
+
+}
+.subimg,img:hover{
+    width: auto;
+    height: 130px;
+}
+
+
+
 
 .card {
     background-color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid #ff0000;
     border-radius: 10px;
     width: 30%;
     height: 500px;
@@ -142,11 +157,12 @@ strong {
 }
 
 .car-1 {
-    margin: 30px;
+    margin: 50px;
 }
 
 .vid {
     border-radius: 5%;
+    height: 700px;
 }
 
 h1 {
@@ -176,6 +192,9 @@ h1 {
     padding-top: 40px;
 }
 
+.iX-img:hover{
+    height: fit-content;
+}
 .text-overlay {
     position: absolute;
     top: 50%;
